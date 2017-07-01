@@ -14,7 +14,7 @@ RUN rm -r /stage
 
 # Install gitui for git management
 WORKDIR /workspace
-RUN wget -O - https://raw.githubusercontent.com/alberthier/git-webui/master/install/installer.sh | bash ; git clone https://github.com/Citrix-TechSpecialist/NetScalerNITRO.git
+RUN wget -O - https://raw.githubusercontent.com/alberthier/git-webui/master/install/installer.sh | bash ; git -b cpx-101 clone https://github.com/Citrix-TechSpecialist/NetScalerNITRO.git
 
 # Cloud 9 IDE
 EXPOSE 80
