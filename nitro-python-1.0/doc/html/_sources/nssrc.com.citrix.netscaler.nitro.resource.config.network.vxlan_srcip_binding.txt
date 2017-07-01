@@ -1,0 +1,8 @@
+vxlan_srcip_binding module
+==========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.network.vxlan_srcip_binding
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

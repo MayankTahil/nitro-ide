@@ -1,0 +1,8 @@
+vpnpcoipconnection module
+=========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.vpn.vpnpcoipconnection
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

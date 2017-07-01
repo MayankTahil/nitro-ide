@@ -1,0 +1,8 @@
+uservserver_stats module
+========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.stat.user.uservserver_stats
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

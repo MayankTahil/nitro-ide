@@ -1,0 +1,8 @@
+clusterpropstatus module
+========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.cluster.clusterpropstatus
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

@@ -1,0 +1,8 @@
+ipsecalgprofile module
+======================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.ipsecalg.ipsecalgprofile
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

@@ -1,0 +1,8 @@
+nscapacity module
+=================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.ns.nscapacity
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

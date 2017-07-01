@@ -1,0 +1,8 @@
+uservserver module
+==================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.user.uservserver
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

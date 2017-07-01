@@ -1,0 +1,8 @@
+pcpserver_stats module
+======================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

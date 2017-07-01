@@ -1,0 +1,8 @@
+pcpserver module
+================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.pcp.pcpserver
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

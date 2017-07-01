@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link href="../../rdx/css/rdx.css" rel="stylesheet" type="text/css" />
+	<link href="../../index.css" rel="stylesheet" type="text/css" />
+	<title>platform_specs</title>
+</head>
+<body class="ns_body">
+<p class="ns_wp_header">platform_specs</p>
+<P>Configuration for Platform Specification resource.</P>
+<p class="heading">Read/write properties</p>
+<p class="heading">Read only properties</p>
+	<p class="property_name">is_fips_present<span class="property_type">&lt;Boolean&gt;</span></p><p class="property_description">To check if FIPS is present.</p>
+	<p class="property_name">contains_fortville_nics<span class="property_type">&lt;Boolean&gt;</span></p><p class="property_description">check if Fortville nic card is present.</p>
+	<p class="property_name">max_channels<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Maximum number of channels available.</p>
+	<p class="property_name">max_cores_per_vm<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Maximum number of CPU cores which can be allocated to VM.</p>
+	<p class="property_name">is_nextgen<span class="property_type">&lt;Boolean&gt;</span></p><p class="property_description">If NextGen Platform.</p>
+	<p class="property_name">no_of_mgmt_interfaces<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">total number of management interfaces available.</p>
+	<p class="property_name">contains_raid<span class="property_type">&lt;Boolean&gt;</span></p><p class="property_description">Enable RAID for the platform.</p>
+<p class="heading">Operations</p><p class="property_name">NOTE: In request payload, Mandatory parameters are marked red and bold.<br /><br />The following parameters can be used in the nitro request :</p>
+<p class="property_name">onerror<span class=\"property_type\">&nbsp;&nbsp;&nbsp;&lt;String_value&gt;</span></p><p class="property_description"> Use this parameter to set the onerror status for nitro request. Applicable only for bulk requests.<br />Default value: EXIT<br />Possible values = EXIT, CONTINUE</p><a href="#get_all" class="operation">get (all)</a><p class="heading"><a name="get_all">get (all)</a></p><p class="key">URL:<span class="url_value">http://&lt;MGMT-IP&gt;/nitro/v2/config/platform_specs<p class="key">Query-parameters:<span class="url_value"><p class="key"><b>filter</b></p><p class="key"><span class="value">http://&lt;MGMT-IP&gt;/nitro/v2/config/platform_specs<b>?filter=property-name1:property-value1,property-name2:property-value2</b></span></p><p class="key"><span class="value">Use this query-parameter to get the filtered set of platform_specs resources configured on the system. You can set a filter on any property of the resource.</span></p><p class="key"><b>pagesize=#no&pageno=#no</b></p><p class="key"><span class="value">http://&lt;MGMT-IP&gt;/nitro/v2/config/platform_specs<b>?pagesize=#no&pageno=#no</b></span></p><p class="key"><span class="value">Use this query-parameter to get the platform_specs resources in chunks.</span></p><p class="key"><b>count</b></p><p class="key"><span class="value">http://&lt;MGMT-IP&gt;/nitro/v2/config/platform_specs<b>?count=yes</b></span></p><p class="key"><span class="value">Use this query-parameter to get the count of platform_specs resources.</span></p></span></p><p class="key">HTTP Method:<span class="value">GET</span></p><p class="key">Response Payload:<span class="value">JSON</span></p><p class="payload">{ "errorcode": 0, "message": "Done", "severity": &ltString_value&gt, "platform_specs":[{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"is_fips_present":&lt;Boolean_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"contains_fortville_nics":&lt;Boolean_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"max_channels":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"max_cores_per_vm":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"is_nextgen":&lt;Boolean_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"no_of_mgmt_interfaces":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"contains_raid":&lt;Boolean_value&gt;</font>}]}</p>
+</body>
+</html>

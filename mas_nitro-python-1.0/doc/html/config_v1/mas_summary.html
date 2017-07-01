@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link href="../../rdx/css/rdx.css" rel="stylesheet" type="text/css" />
+	<link href="../../index.css" rel="stylesheet" type="text/css" />
+	<title>mas_summary</title>
+</head>
+<body class="ns_body">
+<p class="ns_wp_header">mas_summary</p>
+<P>Configuration for MAS Summary resource.</P>
+<p class="heading">Read/write properties</p>
+<p class="heading">Read only properties</p>
+	<p class="property_name">sdwanwo_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">SDWAN WO count.</p>
+	<p class="property_name">sdx_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">SDX count.</p>
+	<p class="property_name">partition_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Admin Partitions count.</p>
+	<p class="property_name">gateway_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Gateway count.</p>
+	<p class="property_name">ns_service_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Service count.</p>
+	<p class="property_name">ns_vip_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">VIP count.</p>
+	<p class="property_name">haproxy_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">HAProxy count.</p>
+	<p class="property_name">application_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Application count.</p>
+	<p class="property_name">ns_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">NS count.</p>
+	<p class="property_name">ns_ssl_certkey_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">SSL certificate count.</p>
+	<p class="property_name">ns_servicegroup_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Service count.</p>
+	<p class="property_name">tenant_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">Tenants count.</p>
+	<p class="property_name">sdwanee_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">SDWAN EE count.</p>
+	<p class="property_name">dc_count<span class="property_type">&lt;Integer&gt;</span></p><p class="property_description">DataCenter count.</p>
+<p class="heading">Operations</p><p class="property_name">NOTE: In request payload, Mandatory parameters are marked red and bold.<br /><br />The following parameters can be used in the nitro request :</p>
+<p class="property_name">onerror<span class=\"property_type\">&nbsp;&nbsp;&nbsp;&lt;String_value&gt;</span></p><p class="property_description"> Use this parameter to set the onerror status for nitro request. Applicable only for bulk requests.<br />Default value: EXIT<br />Possible values = EXIT, CONTINUE</p><a href="#get_all" class="operation">get (all)</a><p class="heading"><a name="get_all">get (all)</a></p><p class="key">URL:<span class="url_value">http://&lt;MGMT-IP&gt;/nitro/v1/config/mas_summary<p class="key">Query-parameters:<span class="url_value"><p class="key"><b>filter</b></p><p class="key"><span class="value">http://&lt;MGMT-IP&gt;/nitro/v1/config/mas_summary<b>?filter=property-name1:property-value1,property-name2:property-value2</b></span></p><p class="key"><span class="value">Use this query-parameter to get the filtered set of mas_summary resources configured on the system. You can set a filter on any property of the resource.</span></p><p class="key"><b>pagesize=#no&pageno=#no</b></p><p class="key"><span class="value">http://&lt;MGMT-IP&gt;/nitro/v1/config/mas_summary<b>?pagesize=#no&pageno=#no</b></span></p><p class="key"><span class="value">Use this query-parameter to get the mas_summary resources in chunks.</span></p><p class="key"><b>count</b></p><p class="key"><span class="value">http://&lt;MGMT-IP&gt;/nitro/v1/config/mas_summary<b>?count=yes</b></span></p><p class="key"><span class="value">Use this query-parameter to get the count of mas_summary resources.</span></p></span></p><p class="key">HTTP Method:<span class="value">GET</span></p><p class="key">Response Payload:<span class="value">JSON</span></p><p class="payload">{ "errorcode": 0, "message": "Done", "severity": &ltString_value&gt, "mas_summary":[{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sdwanwo_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sdx_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"partition_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"gateway_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ns_service_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ns_vip_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"haproxy_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"application_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ns_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ns_ssl_certkey_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ns_servicegroup_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tenant_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sdwanee_count":&lt;Integer_value&gt;</font>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"dc_count":&lt;Integer_value&gt;</font>}]}</p>
+</body>
+</html>

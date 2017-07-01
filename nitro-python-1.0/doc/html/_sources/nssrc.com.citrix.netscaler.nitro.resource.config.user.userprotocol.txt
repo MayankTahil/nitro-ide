@@ -1,0 +1,8 @@
+userprotocol module
+===================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.user.userprotocol
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

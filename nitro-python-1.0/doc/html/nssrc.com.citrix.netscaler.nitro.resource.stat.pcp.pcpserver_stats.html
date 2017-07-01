@@ -1,0 +1,420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>pcpserver_stats module &mdash; Nitro  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Nitro  documentation" href="index.html" />
+    <link rel="up" title="pcp package" href="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.html" />
+    <link rel="next" title="pq package" href="nssrc.com.citrix.netscaler.nitro.resource.stat.pq.html" />
+    <link rel="prev" title="pcp package" href="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="nssrc.com.citrix.netscaler.nitro.resource.stat.pq.html" title="pq package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.html" title="pcp package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Nitro  documentation</a> &raquo;</li>
+          <li><a href="nssrc.com.citrix.netscaler.nitro.resource.stat.html" >config package</a> &raquo;</li>
+          <li><a href="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.html" accesskey="U">pcp package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats">
+<span id="pcpserver-stats-module"></span><h1>pcpserver_stats module<a class="headerlink" href="#module-nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats">
+<em class="property">class </em><tt class="descname">pcpserver_stats</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.html#nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.base_resource" title="nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.base_resource"><tt class="xref py py-class docutils literal"><span class="pre">nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.base_resource</span></tt></a></p>
+<p>Statistics for server resource.</p>
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.name">
+<tt class="descname">name</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>PCP Statistics per Server.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.clearstats">
+<tt class="descname">clearstats</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.clearstats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear the statsistics / counters.&lt;br/&gt;Possible values = basic, full.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpaddrmismatchrate">
+<tt class="descname">pcpaddrmismatchrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpaddrmismatchrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotaddrmismatch.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotmalformedreq">
+<tt class="descname">pcptotmalformedreq</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotmalformedreq" title="Permalink to this definition">¶</a></dt>
+<dd><p>total PCP request having malformed PCP packets.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpnoresourcesrate">
+<tt class="descname">pcpnoresourcesrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpnoresourcesrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotnoresources.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsuppopcoderate">
+<tt class="descname">pcpunsuppopcoderate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsuppopcoderate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotunsuppopcode.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotpeerrequests">
+<tt class="descname">pcptotpeerrequests</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotpeerrequests" title="Permalink to this definition">¶</a></dt>
+<dd><p>PCP PEER Requests received.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpnetfailurerate">
+<tt class="descname">pcpnetfailurerate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpnetfailurerate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotnetfailure.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptoterrinrquest">
+<tt class="descname">pcptoterrinrquest</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptoterrinrquest" title="Permalink to this definition">¶</a></dt>
+<dd><p>total PCP request with error.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotmalformedoption">
+<tt class="descname">pcptotmalformedoption</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotmalformedoption" title="Permalink to this definition">¶</a></dt>
+<dd><p>total malformed OPTIONS received in requests.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotresponses">
+<tt class="descname">pcptotresponses</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotresponses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number PCP responces sent.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsupportedprotocolrate">
+<tt class="descname">pcpunsupportedprotocolrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsupportedprotocolrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotunsupportedprotocol.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotnoresources">
+<tt class="descname">pcptotnoresources</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotnoresources" title="Permalink to this definition">¶</a></dt>
+<dd><p>no resources.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotnetfailure">
+<tt class="descname">pcptotnetfailure</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotnetfailure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total Network Failures.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcppeerrequestsrate">
+<tt class="descname">pcppeerrequestsrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcppeerrequestsrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotpeerrequests.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotnoexternal">
+<tt class="descname">pcptotnoexternal</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotnoexternal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total responses with opcode can not provide external.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcperrinresrate">
+<tt class="descname">pcperrinresrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcperrinresrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptoterrinres.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsuppopcode">
+<tt class="descname">pcptotunsuppopcode</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsuppopcode" title="Permalink to this definition">¶</a></dt>
+<dd><p>total Unsupproted OPCODES received Requests.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsuppversrate">
+<tt class="descname">pcpunsuppversrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsuppversrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotunsuppvers.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotuserexqouta">
+<tt class="descname">pcptotuserexqouta</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotuserexqouta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total user ex quota.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsuppvers">
+<tt class="descname">pcptotunsuppvers</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsuppvers" title="Permalink to this definition">¶</a></dt>
+<dd><p>PCP request with unsupported version.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpuserexqoutarate">
+<tt class="descname">pcpuserexqoutarate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpuserexqoutarate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotuserexqouta.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsupportedprotocol">
+<tt class="descname">pcptotunsupportedprotocol</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsupportedprotocol" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total Unsupported Protocols requests.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpexcesspeersrate">
+<tt class="descname">pcpexcesspeersrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpexcesspeersrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotexcesspeers.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpmalformedoptionrate">
+<tt class="descname">pcpmalformedoptionrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpmalformedoptionrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotmalformedoption.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotrequests">
+<tt class="descname">pcptotrequests</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotrequests" title="Permalink to this definition">¶</a></dt>
+<dd><p>PCP Request received.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcperrinrquestrate">
+<tt class="descname">pcperrinrquestrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcperrinrquestrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptoterrinrquest.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpresponsesrate">
+<tt class="descname">pcpresponsesrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpresponsesrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotresponses.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsuppoptionrate">
+<tt class="descname">pcpunsuppoptionrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpunsuppoptionrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotunsuppoption.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpmaprequestsrate">
+<tt class="descname">pcpmaprequestsrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpmaprequestsrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotmaprequests.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpnoexternalrate">
+<tt class="descname">pcpnoexternalrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpnoexternalrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotnoexternal.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsuppoption">
+<tt class="descname">pcptotunsuppoption</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotunsuppoption" title="Permalink to this definition">¶</a></dt>
+<dd><p>total Unsupproted OPTIONS received in requests.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptoterrinres">
+<tt class="descname">pcptoterrinres</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptoterrinres" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total PCP responses with errors.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotmaprequests">
+<tt class="descname">pcptotmaprequests</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotmaprequests" title="Permalink to this definition">¶</a></dt>
+<dd><p>PCP MAP Requests received.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotexcesspeers">
+<tt class="descname">pcptotexcesspeers</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotexcesspeers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total responses with opcode excessive remote peers.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpmalformedreqrate">
+<tt class="descname">pcpmalformedreqrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcpmalformedreqrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotmalformedreq.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcprequestsrate">
+<tt class="descname">pcprequestsrate</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcprequestsrate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rate (/s) counter for pcptotrequests.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotaddrmismatch">
+<tt class="descname">pcptotaddrmismatch</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.pcptotaddrmismatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total address mismatch.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.get">
+<em class="property">classmethod </em><tt class="descname">get</tt><big>(</big><em>service</em>, <em>name=''</em>, <em>option_=''</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use this API to fetch the statistics of all pcpserver_stats resources that are configured on netscaler.
+set statbindings=True in options to retrieve bindings.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.Clearstats">
+<em class="property">class </em><tt class="descname">Clearstats</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.Clearstats" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.Clearstats.basic">
+<tt class="descname">basic</tt><em class="property"> = 'basic'</em><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.Clearstats.basic" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.Clearstats.full">
+<tt class="descname">full</tt><em class="property"> = 'full'</em><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_stats.Clearstats.full" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_response">
+<em class="property">class </em><tt class="descname">pcpserver_response</tt><big>(</big><em>length=1</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.pcpserver_response" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.base.base_response.html#nssrc.com.citrix.netscaler.nitro.resource.base.base_response.base_response" title="nssrc.com.citrix.netscaler.nitro.resource.base.base_response.base_response"><tt class="xref py py-class docutils literal"><span class="pre">nssrc.com.citrix.netscaler.nitro.resource.base.base_response.base_response</span></tt></a></p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><ul class="globaltoc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.exception.html">Nitro exception Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.base.html">Base Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.service.html">Service Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.util.html">Util Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.html">Config Package</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.html">Stat Package</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.aaa.html">aaa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.appflow.html">appflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.appfw.html">appfw</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.appqoe.html">appqoe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.audit.html">audit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.authentication.html">authentication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.authorization.html">authorization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.autoscale.html">autoscale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.basic.html">basic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.ca.html">ca</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.cache.html">cache</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.cluster.html">cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.cmp.html">cmp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.cr.html">cr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.cs.html">cs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.dns.html">dns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.dos.html">dos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.feo.html">feo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.gslb.html">gslb</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.ha.html">ha</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.ica.html">ica</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.ipsec.html">ipsec</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.ipsecalg.html">ipsecalg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.lb.html">lb</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.lldp.html">lldp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.lsn.html">lsn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.network.html">network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.ns.html">ns</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.html">pcp</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="">pcpserver_stats</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.pq.html">pq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.protocol.html">protocol</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.qos.html">qos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.responder.html">responder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.rewrite.html">rewrite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.sc.html">sc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.snmp.html">snmp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.spillover.html">spillover</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.ssl.html">ssl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.stream.html">stream</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.system.html">system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.tm.html">tm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.transform.html">transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.user.html">user</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.videooptimization.html">videooptimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.vpn.html">vpn</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.html"
+                        title="previous chapter">pcp package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="nssrc.com.citrix.netscaler.nitro.resource.stat.pq.html"
+                        title="next chapter">pq package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/nssrc.com.citrix.netscaler.nitro.resource.stat.pcp.pcpserver_stats.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div> 
+
+    <div class="footer">
+        &copy; Copyright © 1999-2014 Citrix Systems, Inc. All Rights Reserved.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.
+    </div>
+  </body>
+</html>

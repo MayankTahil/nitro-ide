@@ -1,0 +1,8 @@
+vxlanvlanmap_vxlan_binding module
+=================================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.network.vxlanvlanmap_vxlan_binding
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

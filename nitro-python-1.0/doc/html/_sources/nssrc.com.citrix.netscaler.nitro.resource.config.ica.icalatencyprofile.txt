@@ -1,0 +1,8 @@
+icalatencyprofile module
+========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.ica.icalatencyprofile
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

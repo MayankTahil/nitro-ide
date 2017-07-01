@@ -1,0 +1,8 @@
+icaparameter module
+===================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.ica.icaparameter
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

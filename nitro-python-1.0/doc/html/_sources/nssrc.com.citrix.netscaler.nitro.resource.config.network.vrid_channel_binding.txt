@@ -1,0 +1,8 @@
+vrid_channel_binding module
+===========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.network.vrid_channel_binding
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

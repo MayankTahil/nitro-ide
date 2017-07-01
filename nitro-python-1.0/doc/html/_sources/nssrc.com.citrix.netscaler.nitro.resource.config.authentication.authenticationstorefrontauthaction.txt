@@ -1,0 +1,8 @@
+authenticationstorefrontauthaction module
+=========================================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.authentication.authenticationstorefrontauthaction
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

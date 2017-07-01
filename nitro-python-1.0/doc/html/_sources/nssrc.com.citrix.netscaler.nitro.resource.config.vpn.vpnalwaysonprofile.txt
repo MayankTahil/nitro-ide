@@ -1,0 +1,8 @@
+vpnalwaysonprofile module
+=========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.vpn.vpnalwaysonprofile
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

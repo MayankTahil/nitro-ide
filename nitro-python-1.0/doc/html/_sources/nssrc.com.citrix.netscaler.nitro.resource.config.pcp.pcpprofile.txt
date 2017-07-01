@@ -1,0 +1,8 @@
+pcpprofile module
+=================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.pcp.pcpprofile
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

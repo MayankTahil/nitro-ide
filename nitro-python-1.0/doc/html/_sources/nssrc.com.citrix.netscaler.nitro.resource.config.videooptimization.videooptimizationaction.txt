@@ -1,0 +1,8 @@
+videooptimizationaction module
+==============================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationaction
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

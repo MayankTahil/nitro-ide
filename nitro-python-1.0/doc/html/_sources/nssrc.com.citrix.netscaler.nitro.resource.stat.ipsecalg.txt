@@ -1,0 +1,9 @@
+ipsecalg package
+================
+
+Subpackages
+-----------
+
+.. toctree::
+
+	ipsecalgcounters_stats <nssrc.com.citrix.netscaler.nitro.resource.stat.ipsecalg.ipsecalgcounters_stats>

@@ -1,0 +1,8 @@
+lbprofile module
+================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.lb.lbprofile
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

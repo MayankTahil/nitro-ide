@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: mas-nitro-python
+Version: 1.0
+Summary: Python SDK for MAS Nitro API
+Home-page: UNKNOWN
+Author: Citrix NetScler MAS
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 11.1
+Classifier: Intended Audience :: MAS NITRO API
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: API

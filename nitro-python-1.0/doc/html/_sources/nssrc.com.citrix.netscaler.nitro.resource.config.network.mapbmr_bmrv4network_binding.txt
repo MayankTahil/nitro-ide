@@ -1,0 +1,8 @@
+mapbmr_bmrv4network_binding module
+==================================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.network.mapbmr_bmrv4network_binding
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

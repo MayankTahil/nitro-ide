@@ -1,0 +1,8 @@
+nscentralmanagementserver module
+================================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.ns.nscentralmanagementserver
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

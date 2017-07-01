@@ -1,0 +1,20 @@
+videooptimization package
+=========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+	videooptimizationaction <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationaction>
+	videooptimizationglobal_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationglobal_binding>
+	videooptimizationglobal_videooptimizationpolicy_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationglobal_videooptimizationpolicy_binding>
+	videooptimizationparameter <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationparameter>
+	videooptimizationpolicy <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicy>
+	videooptimizationpolicy_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicy_binding>
+	videooptimizationpolicy_lbvserver_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicy_lbvserver_binding>
+	videooptimizationpolicy_videooptimizationglobal_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicy_videooptimizationglobal_binding>
+	videooptimizationpolicylabel <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicylabel>
+	videooptimizationpolicylabel_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicylabel_binding>
+	videooptimizationpolicylabel_policybinding_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicylabel_policybinding_binding>
+	videooptimizationpolicylabel_videooptimizationpolicy_binding <nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationpolicylabel_videooptimizationpolicy_binding>

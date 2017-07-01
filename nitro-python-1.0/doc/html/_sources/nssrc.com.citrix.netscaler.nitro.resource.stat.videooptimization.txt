@@ -1,0 +1,11 @@
+videooptimization package
+=========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+	videooptimization_stats <nssrc.com.citrix.netscaler.nitro.resource.stat.videooptimization.videooptimization_stats>
+	videooptimizationpolicy_stats <nssrc.com.citrix.netscaler.nitro.resource.stat.videooptimization.videooptimizationpolicy_stats>
+	videooptimizationpolicylabel_stats <nssrc.com.citrix.netscaler.nitro.resource.stat.videooptimization.videooptimizationpolicylabel_stats>

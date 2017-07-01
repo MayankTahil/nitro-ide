@@ -1,0 +1,8 @@
+vpnsfconfig module
+==================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.vpn.vpnsfconfig
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

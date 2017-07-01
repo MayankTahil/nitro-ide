@@ -1,0 +1,10 @@
+ipsecalg package
+================
+
+Subpackages
+-----------
+
+.. toctree::
+
+	ipsecalgprofile <nssrc.com.citrix.netscaler.nitro.resource.config.ipsecalg.ipsecalgprofile>
+	ipsecalgsession <nssrc.com.citrix.netscaler.nitro.resource.config.ipsecalg.ipsecalgsession>

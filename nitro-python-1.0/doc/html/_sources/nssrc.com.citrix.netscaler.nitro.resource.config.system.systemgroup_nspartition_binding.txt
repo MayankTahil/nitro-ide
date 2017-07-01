@@ -1,0 +1,8 @@
+systemgroup_nspartition_binding module
+======================================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.system.systemgroup_nspartition_binding
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

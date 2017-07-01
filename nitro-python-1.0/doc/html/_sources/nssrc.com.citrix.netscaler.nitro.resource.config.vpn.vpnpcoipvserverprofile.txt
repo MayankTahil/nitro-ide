@@ -1,0 +1,8 @@
+vpnpcoipvserverprofile module
+=============================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.vpn.vpnpcoipvserverprofile
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

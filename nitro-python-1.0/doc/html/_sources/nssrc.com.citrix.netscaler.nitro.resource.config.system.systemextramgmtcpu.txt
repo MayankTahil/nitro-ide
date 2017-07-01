@@ -1,0 +1,8 @@
+systemextramgmtcpu module
+=========================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.system.systemextramgmtcpu
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

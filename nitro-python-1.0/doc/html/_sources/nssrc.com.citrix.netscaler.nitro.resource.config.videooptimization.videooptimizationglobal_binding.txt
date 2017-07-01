@@ -1,0 +1,8 @@
+videooptimizationglobal_binding module
+======================================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.videooptimizationglobal_binding
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

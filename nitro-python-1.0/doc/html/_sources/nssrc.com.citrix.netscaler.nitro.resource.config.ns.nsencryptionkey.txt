@@ -1,0 +1,8 @@
+nsencryptionkey module
+======================
+
+.. automodule:: nssrc.com.citrix.netscaler.nitro.resource.config.ns.nsencryptionkey
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

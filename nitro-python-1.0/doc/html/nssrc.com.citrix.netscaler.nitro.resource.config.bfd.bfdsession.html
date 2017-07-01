@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>bfdsession module &mdash; Nitro  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Nitro  documentation" href="index.html" />
+    <link rel="up" title="bfd package" href="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.html" />
+    <link rel="next" title="ca package" href="nssrc.com.citrix.netscaler.nitro.resource.config.ca.html" />
+    <link rel="prev" title="bfd package" href="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="nssrc.com.citrix.netscaler.nitro.resource.config.ca.html" title="ca package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.html" title="bfd package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Nitro  documentation</a> &raquo;</li>
+          <li><a href="nssrc.com.citrix.netscaler.nitro.resource.config.html" >config package</a> &raquo;</li>
+          <li><a href="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.html" accesskey="U">bfd package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession">
+<span id="bfdsession-module"></span><h1>bfdsession module<a class="headerlink" href="#module-nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession">
+<em class="property">class </em><tt class="descname">bfdsession</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.html#nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.base_resource" title="nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.base_resource"><tt class="xref py py-class docutils literal"><span class="pre">nssrc.com.citrix.netscaler.nitro.resource.base.base_resource.base_resource</span></tt></a></p>
+<p>Configuration for BFD configuration resource.</p>
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localip">
+<tt class="descname">localip</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localip" title="Permalink to this definition">¶</a></dt>
+<dd><p>IPV4 or IPV6 Address of Local Node.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remoteip">
+<tt class="descname">remoteip</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remoteip" title="Permalink to this definition">¶</a></dt>
+<dd><p>IPV4 or IPV6 Address of Remote Node.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.state">
+<tt class="descname">state</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.state" title="Permalink to this definition">¶</a></dt>
+<dd><p>Current state of the BFD session.&lt;br/&gt;Possible values = ADMIN DOWN, DOWN, INIT, UP.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localport">
+<tt class="descname">localport</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Source Port used by Local node to send Control packets for the BFD session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remoteport">
+<tt class="descname">remoteport</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remoteport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Source Port used by Remote node to send Control packets for the BFD session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.minimumtransmitinterval">
+<tt class="descname">minimumtransmitinterval</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.minimumtransmitinterval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Minimum trasmit interval, in milliseconds, the local node would like to use when transmitting BFD Control packets.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.negotiatedminimumtransmitinterval">
+<tt class="descname">negotiatedminimumtransmitinterval</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.negotiatedminimumtransmitinterval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Negotiated Minimum Transmit Interval. This is the interval at which the local node will be sending out BFD control packets.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.minimumreceiveinterval">
+<tt class="descname">minimumreceiveinterval</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.minimumreceiveinterval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Minimum receive interval, in milliseconds, between received BFD Control packets that the local node is capable of supporting.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.negotiatedminimumreceiveinterval">
+<tt class="descname">negotiatedminimumreceiveinterval</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.negotiatedminimumreceiveinterval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Negotiated Minimum Receive Interval. This is the interval at which the local node will be expecting BFD control packets.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.multiplier">
+<tt class="descname">multiplier</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.multiplier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Detection Multiplier. The negotiated transmit interval multiplied by Detection multiplier provides the Detection Time for the remote node for the BFD session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remotemultiplier">
+<tt class="descname">remotemultiplier</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remotemultiplier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Your Multiplier. The negotiated receive interval multiplied by Your Multiplier provides the Detection Time for the local node for the BFD session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.vlan">
+<tt class="descname">vlan</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.vlan" title="Permalink to this definition">¶</a></dt>
+<dd><p>VLAN ID on which the BDS session is configured.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localdiagnotic">
+<tt class="descname">localdiagnotic</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localdiagnotic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Diagnostic Code specifying the local system&#8217;s reason for the last change in session state.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localdiscriminator">
+<tt class="descname">localdiscriminator</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.localdiscriminator" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unique discriminator value generated by the local node for the session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remotediscriminator">
+<tt class="descname">remotediscriminator</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.remotediscriminator" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unique discriminator value as received from the remote node for the session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.passive">
+<tt class="descname">passive</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.passive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flag indicating that the session is passive.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.multihop">
+<tt class="descname">multihop</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.multihop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flag indicating if the session is multihop.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.admindown">
+<tt class="descname">admindown</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.admindown" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flag indicating if admin down is being sent.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.originalownerpe">
+<tt class="descname">originalownerpe</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.originalownerpe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Original Owner PE of the BFD session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.currentownerpe">
+<tt class="descname">currentownerpe</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.currentownerpe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Current Owner PE of the BFD session.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.ownernode">
+<tt class="descname">ownernode</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.ownernode" title="Permalink to this definition">¶</a></dt>
+<dd><p>The owner node in a Cluster for this BFD session. Owner node can vary from 0 to 31. If ownernode is not specified then the session is treated as Striped session.&lt;br/&gt;Default value: 255.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.get">
+<em class="property">classmethod </em><tt class="descname">get</tt><big>(</big><em>client</em>, <em>name=''</em>, <em>option_=''</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use this API to fetch all the bfdsession resources that are configured on netscaler.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.get_args">
+<em class="property">classmethod </em><tt class="descname">get_args</tt><big>(</big><em>client</em>, <em>args</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.get_args" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use this API to fetch all the bfdsession resources that are configured on netscaler.
+# This uses bfdsession_args which is a way to provide additional arguments while fetching the resources.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.get_filtered">
+<em class="property">classmethod </em><tt class="descname">get_filtered</tt><big>(</big><em>client</em>, <em>filter_</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.get_filtered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use this API to fetch filtered set of bfdsession resources.
+filter string should be in JSON format.eg: &#8220;port:80,servicetype:HTTP&#8221;.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.count">
+<em class="property">classmethod </em><tt class="descname">count</tt><big>(</big><em>client</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.count" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use this API to count the bfdsession resources configured on NetScaler.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.count_filtered">
+<em class="property">classmethod </em><tt class="descname">count_filtered</tt><big>(</big><em>client</em>, <em>filter_</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.count_filtered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use this API to count filtered the set of bfdsession resources.
+Filter string should be in JSON format.eg: &#8220;port:80,servicetype:HTTP&#8221;.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State">
+<em class="property">class </em><tt class="descname">State</tt><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.ADMIN_DOWN">
+<tt class="descname">ADMIN_DOWN</tt><em class="property"> = 'ADMIN DOWN'</em><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.ADMIN_DOWN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.DOWN">
+<tt class="descname">DOWN</tt><em class="property"> = 'DOWN'</em><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.DOWN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.INIT">
+<tt class="descname">INIT</tt><em class="property"> = 'INIT'</em><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.INIT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.UP">
+<tt class="descname">UP</tt><em class="property"> = 'UP'</em><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession.State.UP" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession_response">
+<em class="property">class </em><tt class="descname">bfdsession_response</tt><big>(</big><em>length=1</em><big>)</big><a class="headerlink" href="#nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.bfdsession_response" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.base.base_response.html#nssrc.com.citrix.netscaler.nitro.resource.base.base_response.base_response" title="nssrc.com.citrix.netscaler.nitro.resource.base.base_response.base_response"><tt class="xref py py-class docutils literal"><span class="pre">nssrc.com.citrix.netscaler.nitro.resource.base.base_response.base_response</span></tt></a></p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><ul class="globaltoc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.exception.html">Nitro exception Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.base.html">Base Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.service.html">Service Package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.util.html">Util Package</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.html">Config Package</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.aaa.html">aaa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.app.html">app</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.appflow.html">appflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.appfw.html">appfw</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.appqoe.html">appqoe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.audit.html">audit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.authentication.html">authentication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.authorization.html">authorization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.autoscale.html">autoscale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.basic.html">basic</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.html">bfd</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="">bfdsession</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ca.html">ca</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.cache.html">cache</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.cloud.html">cloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.cluster.html">cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.cmp.html">cmp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.cr.html">cr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.cs.html">cs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.db.html">db</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.dns.html">dns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.dos.html">dos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.feo.html">feo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.filter.html">filter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.gslb.html">gslb</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ha.html">ha</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ica.html">ica</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ipsec.html">ipsec</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ipsecalg.html">ipsecalg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.lb.html">lb</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.lldp.html">lldp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.lsn.html">lsn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.network.html">network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ns.html">ns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ntp.html">ntp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.pcp.html">pcp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.policy.html">policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.pq.html">pq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.protocol.html">protocol</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.rdp.html">rdp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.reputation.html">reputation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.responder.html">responder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.rewrite.html">rewrite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.rise.html">rise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.router.html">router</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.sc.html">sc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.smpp.html">smpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.snmp.html">snmp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.spillover.html">spillover</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ssl.html">ssl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.stream.html">stream</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.subscriber.html">subscriber</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.system.html">system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.tm.html">tm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.transform.html">transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.tunnel.html">tunnel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.ulfd.html">ulfd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.user.html">user</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.utility.html">utility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.videooptimization.html">videooptimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.vpn.html">vpn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.wf.html">wf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.config.wi.html">wi</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nssrc.com.citrix.netscaler.nitro.resource.stat.html">Stat Package</a></li>
+</ul>
+</ul>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="nssrc.com.citrix.netscaler.nitro.resource.config.bfd.html"
+                        title="previous chapter">bfd package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="nssrc.com.citrix.netscaler.nitro.resource.config.ca.html"
+                        title="next chapter">ca package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/nssrc.com.citrix.netscaler.nitro.resource.config.bfd.bfdsession.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div> 
+
+    <div class="footer">
+        &copy; Copyright © 1999-2014 Citrix Systems, Inc. All Rights Reserved.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.
+    </div>
+  </body>
+</html>
