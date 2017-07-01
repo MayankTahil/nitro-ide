@@ -17,14 +17,15 @@ You can pull the main docker image from [DockerHub](https://hub.docker.com/r/may
 
 ```
 git clone https://github.com/MayankTahil/nitro-ide.git
+
 sudo docker build -t mayankt/nitro-ide ./nitro-ide
 ```
 
 You should see the docker image stored locally using the command `sudo docker images`
 
 ```
-REPOSITORY				TAG                 IMAGE ID            CREATED             SIZE
-mayankt/nitro-ide	   latest            cbd5efd1a833         1 minute ago         982 MB
+REPOSITORY          TAG         IMAGE ID          CREATED          SIZE
+mayankt/nitro-ide  latest        cbd5efd1a833   1 minute ago      982 MB
 ```
 
 # Run your Docker Image
