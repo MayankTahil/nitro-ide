@@ -24,15 +24,15 @@ sudo docker build -t mayankt/nitro-ide ./nitro-ide
 You should see the docker image stored locally using the command `sudo docker images`
 
 ```
-REPOSITORY          TAG         IMAGE ID          CREATED          SIZE
-mayankt/nitro-ide  latest        cbd5efd1a833   1 minute ago      982 MB
+REPOSITORY            TAG         IMAGE ID          CREATED          SIZE
+mayankt/nitro-ide    latest     cbd5efd1a833      1 minute ago      982 MB
 ```
 
 # Run your Docker Image
 
-Simply enter in the following command to run your IDE sandbox environment
+Simply enter in the following command to run your IDE sandbox environment:
 
-````
+```
 sudo docker run -dt \ 
 --name=nitro-ide \
 -p 8080:80 \
@@ -40,6 +40,7 @@ sudo docker run -dt \
 -v /GitProjects:/workspace \
 mayankt/nitro-ide
 ```
+
 Here is the breakdown of the command from above: 
 
 * `docker run -dt` : This will run the container detached with a terminal in the background
