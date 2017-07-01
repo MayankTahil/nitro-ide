@@ -43,11 +43,20 @@ mayankt/nitro-ide
 
 Here is the breakdown of the command from above: 
 
-* `docker run -dt` : This will run the container detached with a terminal in the background
-* `-p 8080:80` : This will expose port `8080` on the host and map it to port `80` on the contianer for access to **[Cloud 9 IDE](https://c9.io/)**
-* `-p 8081:8000` : This will expose port `8081` on the host and mapt it to port `8000` on the container for access to [git webui](https://github.com/alberthier/git-webui) which allows for [repository managemet](#Repository-UI) via the browser.
-* `-v /GitProjects:/workspace` : This will mount the local path on your host at `/Gitprojects` to the local directory within the container at `/workspace`. You can replace the local host directory with any full path on your machine where your projects may be stored. You will be able to edit the same files inside the container via the IDE and locally on your machine if you choose. 
-* `mayankt/nitro-ide:latest` : This identifies the `latest` tagged image from dockerhub to use when running the container. You can also check out image [tags](https://hub.docker.com/r/mayankt/nitro-ide/tags/) as this project further develops and accomidates newer versions of NetScaler. 
+* `docker run -dt` 
+    * This will run the container detached with a terminal in the background
+
+* `-p 8080:80` 
+    * This will expose port `8080` on the host and map it to port `80` on the contianer for access to [Cloud 9 IDE](https://c9.io/)
+
+* `-p 8081:8000`
+    * This will expose port `8081` on the host and mapt it to port `8000` on the container for access to [git webui](https://github.com/alberthier/git-webui) which allows for [repository managemet](#Repository-UI) via the browser.
+
+* `-v /GitProjects:/workspace`
+    * This will mount the local path on your host at `/Gitprojects` to the local directory within the container at `/workspace`. You can replace the local host directory with any full path on your machine where your projects may be stored. You will be able to edit the same files inside the container via the IDE and locally on your machine if you choose. 
+
+* `mayankt/nitro-ide:latest`
+    * This identifies the `latest` tagged image from dockerhub to use when running the container. You can also check out image [tags](https://hub.docker.com/r/mayankt/nitro-ide/tags/) as this project further develops and accomidates newer versions of NetScaler. 
 
 # Compose an Environment 
 
