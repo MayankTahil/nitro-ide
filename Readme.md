@@ -90,7 +90,7 @@ To tear down the environment, enter the following commands within the `nitro-ide
 
 # Accessing your Sandbox
 
-With this environment, you will have potentially two interfaces to work with. 
+With this environment, you will have potentially two GUI interfaces to work with. 
 
 1. **[Cloud9 IDE](https://github.com/kdelfour/cloud9-docker)**
     * This will be the main text editor and coding environment with Nitro SDKs already pre-installed. 
@@ -140,11 +140,33 @@ Assuming you have provisioned a sandbox environment with `docker-compose` you sh
 
 * CPX
   * On the `sandbox` network with an NSIP of `192.168.13.20`
-  * Ports `10000` through `10050` open and mapped correspondingly with the host machine
+  * Ports `10000` through `10050` open and mapped correspondingly with the host machine and port `9080` is mapped to validate CPX's spash page for status validation. 
 * Two webservers
+  * Within the docker sandbox network which is not accessible externally.
 * Cloud9 IDE for coding
 
-1. Browse to Cloud9's GUI via the browser at `http://localhost:9090` and at the bottom terminal type : `git clone 
+1. Browse to Cloud9's GUI via the browser at `http://localhost:9090` and at the bottom terminal type : 
+
+`git clone -b cpx-101 https://github.com/Citrix-TechSpecialist/NetScalerNITRO.git`
+
+2. Next run the command in the bottom bash terminal: 
+
+`cd NetScalerNITRO ; python nsAuto.py` 
+
+You will see the following outputs: 
+
+```
+Configuring NS 
+Starting to configure...
+All done preforming configuration
+```
+
+3. Navigate to `http://localhost:10000` to see the exposed load balanced webservers. Refresh your browser to see WebServer-A and WebServer-B round robin. 
+
+> For more advanced examples of Nitro-API, refer to [https://github.com/Citrix-TechSpecialist/NetScalerNITRO.git](https://github.com/Citrix-TechSpecialist/NetScalerNITRO.git) master branch to configure HA pairs of VPX and MPX devices. 
+
+# Deployment Video
+
 
 
 
