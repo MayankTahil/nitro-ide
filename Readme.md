@@ -84,9 +84,11 @@ To tear down the environment, enter the following commands within the `nitro-ide
 
 `sudo docker compose down ./docker-compose.yaml`
 
-> Note: CPX Express does not have all the same features of a traditional VPX/MPX. For example, NITRO commands to configure NetScaler Gateway will fail along with any attempts to automate GLSB configurations.
-
-> Also note that the default username and password for CPX is **root/linux** for ssh access. 
+> **Note**: 
+  * CPX Express does not have all the same features of a traditional VPX/MPX. For example, NITRO commands to configure NetScaler Gateway will fail along with any attempts to automate GLSB configurations.
+  * The default username and password for CPX is **root/linux** for ssh access.
+  * The default username and password for CPX to authenticate NITRO commands is **nsroot/nsroot** 
+  * CPX container may take up to 3 minutes to initialize and become ready to accept NITRO commands. Wait until `docker logs nitroide_cpx_1` last line shows `Starting Monit 5.16 daemon`.
 
 # Accessing your Sandbox
 
@@ -165,7 +167,8 @@ All done preforming configuration
 
 > For more advanced examples of Nitro-API, refer to [https://github.com/Citrix-TechSpecialist/NetScalerNITRO.git](https://github.com/Citrix-TechSpecialist/NetScalerNITRO.git) master branch to configure HA pairs of VPX and MPX devices. 
 
-# Deployment Video
+
+
 
 
 
