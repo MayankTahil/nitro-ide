@@ -29,6 +29,8 @@ services:
         ipv4_address: "192.168.13.20"
     environment:
     - EULA=yes
+    privileged: true
+    # Open ports on host to expose for NetScaler functionality testing. 
     ports:
       - "10000-10050:10000-10050"
     hostname: cpx
