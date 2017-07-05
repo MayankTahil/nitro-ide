@@ -23,17 +23,20 @@ services:
 # NetScalet CPX
   cpx:
     image: "mayankt/cpx:12.0-41.16"
+    environment:
+      EULA: "yes"
     restart: always
+    cap_add:
+      - NET_ADMIN
+    ulimits:
+      core: -1
     networks:
       sandbox:
         ipv4_address: "192.168.13.20"
-    environment:
-    - EULA=yes
-    privileged: true
-    # Open ports on host to expose for NetScaler functionality testing. 
     ports:
       - "10000-10050:10000-10050"
-    hostname: cpx
+      - "9080:80"
+    hostname: ns-adc
 
 # IDE Environment 
   nitro-ide:
@@ -45,9 +48,9 @@ services:
     ports:
       - "9090:80"
       - "9091:8000"
-# Uncomment the next two lines to map to your local host directory where your git projects are stored to share persistence data with IDE.
+# Uncomment the next two lines to map to your local host directory where your git projects are stored.       
 #    volumes:
-#        - /Gihub-proj:/workspace:rw      
+#        - ${LDAP_DB}:/var/lib/ldap:rw      
     hostname: nitro-ide
 
 networks:
