@@ -27,6 +27,8 @@ services:
     networks:
       sandbox:
         ipv4_address: "192.168.13.20"
+    environment:
+    - EULA=yes
     ports:
       - "10000-10050:10000-10050"
     hostname: cpx
@@ -41,9 +43,9 @@ services:
     ports:
       - "9090:80"
       - "9091:8000"
-# Uncomment the next two lines to map to your local host directory where your git projects are stored.       
+# Uncomment the next two lines to map to your local host directory where your git projects are stored to share persistence data with IDE.
 #    volumes:
-#        - ${LDAP_DB}:/var/lib/ldap:rw      
+#        - /Gihub-proj:/workspace:rw      
     hostname: nitro-ide
 
 networks:
